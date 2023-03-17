@@ -1,13 +1,4 @@
 function output = rabbit_negroni2015()
-% global PoUIC3 PoUIC2 PoUIF PoUIM1 PoUIM2 PoUC3 PoUC2 PoUC1 PoUO PoLC3 PoLC2 PoLC1 PoLO
-% ParbGal
-% ParWT_insDold
-% Rabbit E-C coupling model.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%NB: yfinal after 150s 1Hz%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 % Reference:
 % Thomas R. Shannon, Fei Wang, Jose Puglisi, Christopher Weber, Donald M. Bers
 % "A Mathematical Treatment of Integrated Ca Dynamics Within the Ventricular Myocyte",
@@ -16,6 +7,10 @@ function output = rabbit_negroni2015()
 % Jorge A. Negroni et al.
 % "β-adrenergic effects on cardiac myofilaments and contraction in an integrated rabbit ventricular myocyte model"
 % J Mol Cell Cardiol. 2015
+%
+% Mohammad et al. 
+% “A viscoelastic Eshelby inclusion model and analysis of the Cell-in-Gel system” 
+% Int. J. Eng. Sci. Vol. 165, 103489, (2021)
 
 p = 0;  % Parameter array for passing nondefault conditions
 %% Initial conditions
